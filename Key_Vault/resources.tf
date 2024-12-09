@@ -1,6 +1,6 @@
 data "azurerm_client_config" "current" {}
 resource "azurerm_key_vault" "example" {
-  name                        = "examplekeyvault"
+  name                        = "rjskyraterraform"
   location                    = var.region
   resource_group_name         = var.resourcegroupname
   enabled_for_disk_encryption = true
