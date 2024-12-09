@@ -94,7 +94,7 @@ resource "azurerm_network_interface" "example2" {
 }
 
 resource "azurerm_windows_virtual_machine" "example2" {
-  name                = "example-machine2"
+  name                = "example-machin2"
   resource_group_name = var.resourcegroupname
   location            = var.region
   size                = "Standard_F2"
